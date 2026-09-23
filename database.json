@@ -1,0 +1,49 @@
+{
+  "config": {
+    "prefix": "!",
+    "verifyRoleId": "",
+    "verifyChannelId": "",
+    "vouchChannelId": "",
+    "ticketCategoryId": "",
+    "ticketStaffRoleId": "",
+    "giveawayChannelId": "",
+    "themeEmoji": "💎",
+    "accentColor": "#5865F2",
+    "footer": "Premium Bot"
+  },
+  "ticketTypes": [
+    {
+      "id": "buy",
+      "label": "BUY",
+      "emoji": "💎",
+      "categoryId": "",
+      "staffRoleId": "",
+      "message": "Welcome {user}!\\nPlease send your purchase details here. Staff will help you shortly."
+    },
+    {
+      "id": "report",
+      "label": "REPORT",
+      "emoji": "⚠️",
+      "categoryId": "",
+      "staffRoleId": "",
+      "message": "Welcome {user}!\\nPlease explain the issue and attach proof if needed."
+    },
+    {
+      "id": "support",
+      "label": "SUPPORT",
+      "emoji": "🛠️",
+      "categoryId": "",
+      "staffRoleId": "",
+      "message": "Welcome {user}!\\nTell us what you need help with."
+    },
+    {
+      "id": "payment",
+      "label": "PAYMENT",
+      "emoji": "💰",
+      "categoryId": "",
+      "staffRoleId": "",
+      "message": "Welcome {user}!\\nSend your payment/order details here."
+    }
+  ],
+  "giveaways": {}
+}
