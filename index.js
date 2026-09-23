@@ -227,7 +227,7 @@ client.on(Events.InteractionCreate, async i => {
           `${E()} **TICKET BUTTONS**`,
           "CLAIM • TRANSCRIPT • CLOSE",
           "",
-          `${E()} Replace the default emojis with your server/Nitro custom emoji strings in the configuration."
+          `${E()} Replace the default emojis with your server/Nitro custom emoji strings in the configuration.`
         ].join("\n"))], ephemeral: true });
       }
 
